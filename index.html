@@ -87,5 +87,118 @@
       <div class="contacts"></div>
       <div class="social"></div>
     </footer>
+    <div class="modal modal_open" id="mentor-modal">
+      <div class="modal__container">
+        <button type="button" class="modal__close-btn">
+          <img src="./images/close-icon.svg" alt="close icon" />
+        </button>
+        <h2 class="modal__title">Become a mentor</h2>
+
+        <form class="modal__form" id="mentor-form" novalidate>
+          <label for="volunteer-first-name" class="modal__label"
+            >Full Name *
+            <input
+              type="text"
+              class="modal__input"
+              id="mentor-full-name"
+              name="full-name"
+              placeholder="John Doe"
+              minlength="2"
+              required
+            />
+            <span
+              class="modal__error"
+              id="mentor-full-name-error"
+            ></span>
+          </label>
+
+          </label>
+          <label for="mentor-age" class="modal__label"
+            >Age *
+            <input
+              type="number"
+              min="24"
+              max="80"
+              class="modal__input"
+              id="mentor-age"
+              name="age"
+              placeholder="From 24 to 80"
+              required
+            />
+            <span class="modal__error" id="mentor-age-error"></span>
+          </label>
+          <label for="mentor-email" class="modal__label"
+            >Your email *
+            <input
+              type="email"
+              class="modal__input"
+              id="mentor-email"
+              name="email"
+              placeholder="email@email.com"
+              required
+            />
+            <span class="modal__error" id="mentor-email-error"></span>
+          </label>
+          <label for="mentor-phone-number" class="modal__label"
+            >Phone Number
+            <input
+              type="tel"
+              class="modal__input"
+              id="mentor-phone-number"
+              name="phone-number"
+              placeholder="123-456-7890"
+            />
+            <span
+              class="modal__error"
+              id="mentor-phone-number-error"
+            ></span>
+          </label>
+          <fieldset>
+          <legend>Address * :</legend>
+          <label for="street-address" class="modal__label">
+          Street *
+          <input
+            type="text"
+            class="modal__input"
+            id="street-address"
+            name="street-address"
+            placeholder="123 maple st"
+            required
+            minlength="4"
+          />
+          <label for="city" class="modal__label">City *
+            <input type="text" class="modal__input"
+            id="city"
+            name="city"
+            placeholder="Elmira"
+            required
+            minlength="6">
+            <span
+              class="modal__error"
+              id="volunteer-availability-error"
+            ></span>
+          </label>
+          <label for="state" class="modal__label">State *
+           <input type="text" class="modal__input"
+           id="state"
+           name="state"
+           placeholder="New York"
+           required
+           minlength="2">
+          </label>
+          <label for="zip" class="modal__label">Zip Code *
+            <input type="text" class="modal__input"
+            id="zip"
+            name="zip"
+            placeholder="14901"
+            required
+            minlength="5">
+          </label>
+          </fieldset>
+          
+          <button type="submit" class="modal__button">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

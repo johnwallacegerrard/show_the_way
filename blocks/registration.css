@@ -40,9 +40,10 @@
 
 .registration__button {
   width: 240px;
-  background-color: orangered;
-  color: white;
+  background-color: yellow;
+  color: darkcyan;
   padding: 12px 8px;
   margin-top: 32px;
   font-size: 20px;
+  border-radius: 8px;
 }
