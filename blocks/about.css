@@ -1,0 +1,26 @@
+.about {
+  height: 660px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-right: 80px;
+}
+
+.about__text-container {
+  width: 400px;
+  border-top: 8px solid darkcyan;
+  border-bottom: 8px solid darkcyan;
+}
+
+.about__info {
+  text-indent: 24px;
+  font-size: 24px;
+  line-height: 36px;
+}

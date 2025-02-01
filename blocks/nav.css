@@ -1,0 +1,21 @@
+.nav {
+  width: 100vw;
+  height: 40px;
+  background-color: darkcyan;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav__link:hover {
+  text-shadow: 0 0 5px #ff0000;
+}

@@ -1,0 +1,22 @@
+.header {
+  margin-top: 40px;
+  position: relative;
+  height: 110vh;
+  width: 100vw;
+  background-image: url(../images/mentor-silhouette.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.header__name {
+  font-family: "Dancing", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  left: 250px;
+  top: 175px;
+  font-size: 80px;
+  width: 150px;
+  line-height: 120px;
+}
