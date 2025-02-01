@@ -1,5 +1,14 @@
 .about {
-  height: 660px;
+  padding-top: 32px;
+
+  background-image: linear-gradient(white, darkcyan);
+}
+.about__header {
+  text-align: center;
+  font-size: 64px;
+  text-decoration: underline;
+}
+.about__container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,8 +24,8 @@
 
 .about__text-container {
   width: 400px;
-  border-top: 8px solid darkcyan;
-  border-bottom: 8px solid darkcyan;
+  border-top: 8px solid yellow;
+  border-bottom: 8px solid yellow;
 }
 
 .about__info {

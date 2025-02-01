@@ -1,0 +1,48 @@
+.registration {
+  width: 100%;
+  padding-top: 12px;
+  background-image: linear-gradient(darkcyan, orangered);
+}
+
+.registration__header {
+  text-align: center;
+  font-size: 64px;
+  text-decoration: underline;
+}
+
+.registration__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.registration__signup {
+  width: 550;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration__signup-header {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.registration__signup-info {
+  margin: 20px auto;
+  width: 400px;
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+.registration__button {
+  width: 240px;
+  background-color: orangered;
+  color: white;
+  padding: 12px 8px;
+  margin-top: 32px;
+  font-size: 20px;
+}
