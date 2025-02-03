@@ -95,13 +95,13 @@
         <h2 class="modal__title">Become a mentor</h2>
 
         <form class="modal__form" id="mentor-form" novalidate>
-          <label for="volunteer-first-name" class="modal__label"
+          <label for="mentor-full-name" class="modal__label"
             >Full Name *
             <input
               type="text"
               class="modal__input"
               id="mentor-full-name"
-              name="full-name"
+              name="mentor-full-name"
               placeholder="John Doe"
               minlength="2"
               required
@@ -121,7 +121,7 @@
               max="80"
               class="modal__input"
               id="mentor-age"
-              name="age"
+              name="mentor-age"
               placeholder="From 24 to 80"
               required
             />
@@ -155,21 +155,21 @@
           </label>
           <fieldset>
           <legend>Address * :</legend>
-          <label for="street-address" class="modal__label">
+          <label for="mentor-street-address" class="modal__label">
           Street *
           <input
             type="text"
             class="modal__input"
-            id="street-address"
-            name="street-address"
+            id="mentor-street-address"
+            name="mentor-street-address"
             placeholder="123 maple st"
             required
             minlength="4"
           />
-          <label for="city" class="modal__label">City *
+          <label for="mentor-city" class="modal__label">City *
             <input type="text" class="modal__input"
-            id="city"
-            name="city"
+            id="mentor-city"
+            name="mentor-city"
             placeholder="Elmira"
             required
             minlength="6">
@@ -178,18 +178,18 @@
               id="volunteer-availability-error"
             ></span>
           </label>
-          <label for="state" class="modal__label">State *
+          <label for="mentor-state" class="modal__label">State *
            <input type="text" class="modal__input"
-           id="state"
-           name="state"
+           id="mentor-state"
+           name="mentor-state"
            placeholder="New York"
            required
            minlength="2">
           </label>
-          <label for="zip" class="modal__label">Zip Code *
+          <label for="mentor-zip" class="modal__label">Zip Code *
             <input type="text" class="modal__input"
-            id="zip"
-            name="zip"
+            id="mentor-zip"
+            name="mentor-zip"
             placeholder="14901"
             required
             minlength="5">
@@ -256,41 +256,43 @@
           </label>
           <fieldset>
           <legend>Address * :</legend>
-          <label for="street-address" class="modal__label">
+          <label for="parent-street-address" class="modal__label">
           Street *
           <input
             type="text"
             class="modal__input"
-            id="street-address"
+            id="parent-street-address"
             name="street-address"
             placeholder="123 maple st"
             required
-            minlength="4"
+            minlength="4">
+            <span class="modal__error"
+            id="parent-street-address-error"></span>
           />
-          <label for="city" class="modal__label">City *
+          <label for="parent-city" class="modal__label">City *
             <input type="text" class="modal__input"
-            id="city"
-            name="city"
+            id="parent-city"
+            name="parent-city"
             placeholder="Elmira"
             required
             minlength="6">
             <span
               class="modal__error"
-              id="volunteer-availability-error"
+              id="parent-city-error"
             ></span>
           </label>
-          <label for="state" class="modal__label">State *
+          <label for="parent-state" class="modal__label">State *
            <input type="text" class="modal__input"
-           id="state"
-           name="state"
+           id="parent-state"
+           name="parent-state"
            placeholder="New York"
            required
            minlength="2">
           </label>
-          <label for="zip" class="modal__label">Zip Code *
+          <label for="parent-zip" class="modal__label">Zip Code *
             <input type="text" class="modal__input"
-            id="zip"
-            name="zip"
+            id="parent-zip"
+            name="parent-zip"
             placeholder="14901"
             required
             minlength="5">
@@ -301,8 +303,8 @@
            <label for="child-name" class="modal__label"
             >Full Name (Child) *
              <input type="text" class="modal__input"
-            id="child-full-name"
-            name="child-full-name"
+            id="child-name"
+            name="child-name"
             placeholder="John Doe"
             required
             minlength="2">
