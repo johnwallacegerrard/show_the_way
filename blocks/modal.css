@@ -18,6 +18,7 @@
   visibility: visible;
   opacity: 1;
   transition-delay: 0s;
+  z-index: 3;
 }
 
 .modal__container {
@@ -28,6 +29,8 @@
   max-width: 730px;
   width: 100%;
   box-sizing: border-box;
+  height: 80vh;
+  overflow-y: scroll;
 }
 
 .modal__title {

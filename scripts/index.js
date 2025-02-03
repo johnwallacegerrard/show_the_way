@@ -1,7 +1,10 @@
 const mentorModal = document.querySelector("#mentor-modal");
-const registrationButton = document.querySelector(".registration__btn");
+const youthModal = document.querySelector("#youth-modal");
+const mentorRegistrationButton = document.querySelector("#mentor-registration");
+const youthRegistrationButton = document.querySelector("#youth-registration");
 const modal = document.querySelector(".modal");
-const modalCloseButton = document.querySelector(".modal__close-btn");
+const mentorModalCloseButton = mentorModal.querySelector(".modal__close-btn");
+const youthModalCloseButton = youthModal.querySelector(".modal__close-btn");
 
 function openModal(modal) {
   console.log(modal);
@@ -14,9 +17,18 @@ const closeModal = (modal) => {
   //modal.removeEventListener("click, handleOverlay");
 };
 
-registrationButton.addEventListener("click", () => {
+mentorRegistrationButton.addEventListener("click", () => {
   openModal(mentorModal);
 });
-modalCloseButton.addEventListener("click", () => {
-  closeModal(modal);
+
+youthRegistrationButton.addEventListener("click", () => {
+  openModal(youthModal);
+});
+
+mentorModalCloseButton.addEventListener("click", () => {
+  closeModal(mentorModal);
+});
+
+youthModalCloseButton.addEventListener("click", () => {
+  closeModal(youthModal);
 });
