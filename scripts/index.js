@@ -1,7 +1,7 @@
 const modal = document.querySelector(".modal");
 const mentorModal = document.querySelector("#mentor-modal");
 const youthModal = document.querySelector("#youth-modal");
-const mentorForm = document.querySelector("mentor-form");
+const mentorForm = document.querySelector("#mentor-form");
 const youthForm = document.querySelector("#youth-form");
 const mentorNameInput = document.querySelector("#mentor-full-name");
 const mentorAgeInput = document.querySelector("#mentor-age");
@@ -27,8 +27,8 @@ const childAgeInput = document.querySelector("#child-age");
 const childSchoolInput = document.querySelector("#child-school");
 const mentorRegistrationButton = document.querySelector("#mentor-registration");
 const youthRegistrationButton = document.querySelector("#youth-registration");
-const mentorFormSubmitButton = mentorForm.querySelector("modal__button");
-const youthFormSubmitButton = youthForm.querySelector("modal__button");
+const mentorFormSubmitButton = mentorForm.querySelector(".modal__button");
+const youthFormSubmitButton = youthForm.querySelector(".modal__button");
 
 const mentorModalCloseButton = mentorModal.querySelector(".modal__close-btn");
 const youthModalCloseButton = youthModal.querySelector(".modal__close-btn");
