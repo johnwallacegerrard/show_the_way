@@ -78,6 +78,8 @@ mentorForm.addEventListener("submit", (e) => {
     state: mentorStateInput.value,
     zip: mentorZipInput.value,
   };
+
+  mentorForm;
   emailjs.send(serviceID, templateID, inputFields).then(
     () => {
       mentorFormSubmitButton.innerText = "Registration Complete!";
