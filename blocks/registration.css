@@ -52,6 +52,7 @@
     font-size: 20px;
   }
   .registration__container {
+    margin: 0 auto;
     flex-direction: column;
     width: 288px;
   }
