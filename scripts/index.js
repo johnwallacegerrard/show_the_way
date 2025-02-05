@@ -35,7 +35,7 @@ const youthModalCloseButton = youthModal.querySelector(".modal__close-btn");
 
 const publicKey = "dvnhytUdown87cm7F";
 const serviceID = "service_piwj2vu";
-const templateID = "template_xwz047b";
+const templateID = "template_8zbv3u6";
 emailjs.init(publicKey);
 
 function openModal(modal) {
@@ -78,8 +78,6 @@ mentorForm.addEventListener("submit", (e) => {
     state: mentorStateInput.value,
     zip: mentorZipInput.value,
   };
-
-  mentorForm;
   emailjs.send(serviceID, templateID, inputFields).then(
     () => {
       mentorFormSubmitButton.innerText = "Registration Complete!";

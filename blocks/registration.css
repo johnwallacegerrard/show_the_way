@@ -1,6 +1,6 @@
 .registration {
   width: 100%;
-  padding-top: 12px;
+  padding: 12px 0 20px;
   background-image: linear-gradient(darkcyan, orangered);
 }
 
@@ -14,11 +14,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-end;
 }
 
 .registration__signup {
-  width: 550;
+  width: 550px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -46,4 +45,20 @@
   margin-top: 32px;
   font-size: 20px;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 627px) {
+  .registration__header {
+    font-size: 20px;
+  }
+  .registration__container {
+    flex-direction: column;
+    width: 288px;
+  }
+  .registration__signup {
+    width: 288px;
+  }
+  .registration__signup-info {
+    width: 288px;
+  }
 }

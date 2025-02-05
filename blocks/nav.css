@@ -19,3 +19,13 @@
 .nav__link:hover {
   text-shadow: 0 0 5px #ff0000;
 }
+
+@media screen and (max-width: 627px) {
+  .nav {
+    height: 20px;
+  }
+
+  .nav__link {
+    font-size: 12px;
+  }
+}

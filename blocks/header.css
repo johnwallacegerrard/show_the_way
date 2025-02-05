@@ -20,3 +20,15 @@
   width: 150px;
   line-height: 120px;
 }
+
+@media screen and (max-width: 627px) {
+  .header {
+    height: 70vh;
+  }
+  .header__name {
+    width: 60px;
+    font-size: 36px;
+    left: 32px;
+    top: 32px;
+  }
+}

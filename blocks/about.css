@@ -33,3 +33,30 @@
   font-size: 24px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 627px) {
+  .about {
+    padding-top: 20px;
+  }
+  .about__header {
+    font-size: 20px;
+  }
+  .about__container {
+    flex-direction: column;
+  }
+  .about__image {
+    height: 288px;
+    width: 288px;
+    margin: 0 0 12px;
+  }
+  .about__text-container {
+    width: 288px;
+    border-width: 4px;
+  }
+
+  .about__info {
+    text-indent: 16px;
+    font-size: 16px;
+    line-height: 17.4px;
+  }
+}
